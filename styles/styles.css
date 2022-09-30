@@ -1,0 +1,38 @@
+a {
+	text-decoration: none ;
+}
+ul {
+	list-style-type: none;
+}
+header {
+	background-color: #0020F4;
+	height: 388px;
+}
+.logo image {
+	height: 65px;
+}
+.list-style a{
+	color: #FFFFFF;
+	size: 16px;
+}
+.section-photo {
+	width: 1195px;
+	height: 600px;
+	border-radius: 15px;
+	margin: auto;
+}
+.section-text h3{
+	color: #171717;
+	width: 714px;
+	size: 28px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+/*.section-text {
+	margin: auto;
+}*/
+.div-photos {
+	width: 219px;
+	height: 219px;
+	border-radius: 15px;
+}
