@@ -19,6 +19,7 @@ header {
 	width: 1195px;
 	height: 600px;
 	border-radius: 15px;
+	object-fit: cover;
 	margin: auto;
 }
 .section-text h3{
@@ -30,8 +31,9 @@ header {
 /*.section-text {
 	margin: auto;
 }*/
-.div-photos {
+.div-photos img{
 	width: 219px;
 	height: 219px;
 	border-radius: 15px;
+	object-fit: cover;
 }
