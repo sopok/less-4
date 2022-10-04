@@ -8,12 +8,22 @@ header {
 	background-color: #0020F4;
 	height: 388px;
 }
+nav, nav ul, nav li {
+	display: inline-block;
+}
+ header div {
+ 	display: inline-block;
+ 	height: 91px;
+ }
 .logo image {
 	height: 65px;
 }
-.list-style a{
+nav a{
 	color: #FFFFFF;
 	font-size: 16px;
+}
+header a{
+	vertical-align: middle;
 }
 .section-photo {
 	width: 1195px;
@@ -21,12 +31,16 @@ header {
 	border-radius: 15px;
 	object-fit: cover;
 	margin: auto;
+	display: block;
 }
 .section-text h3{
 	color: #171717;
 	font-size: 28px;
 	margin-top: 30px;
 	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
 }
 /*.section-text {
 	margin: auto;
@@ -36,4 +50,15 @@ header {
 	height: 219px;
 	border-radius: 15px;
 	object-fit: cover;
+}
+.list-style1 {
+	margin-left: 43px;
+	margin-right: 53px;
+}
+.list-style2 {
+	margin-left: 45px;
+	margin-right: 42px;
+}
+.list-style3 {
+	margin-left: 78px;
 }
